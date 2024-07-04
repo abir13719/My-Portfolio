@@ -7,12 +7,13 @@ const Navbar = () => {
 
   const navlinks = [
     { title: "Home", to: "/" },
+    { title: "Skills", to: "/skills" },
     { title: "About", to: "/about" },
     { title: "Projects", to: "/" },
   ];
 
   return (
-    <nav className="w-full fixed top-0 left-0 z-20 bg-white">
+    <nav className="shadow-md w-full fixed top-0 left-0 z-20 bg-white">
       <div className="container mx-auto md:flex items-center justify-between py-4 md:px-10 px-7">
         <div>
           <Link to="/">
