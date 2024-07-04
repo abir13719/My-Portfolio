@@ -20,7 +20,15 @@ const AboutMe = () => {
         <br />
         <p className="tracking-widest leading-loose">
           I&apos;m open to Job opportunities where I can contribute, learn and grow. It will be my
-          pleasure to contribute in meaningful projects.
+          pleasure to contribute in meaningful projects. Here is my{" "}
+          <a
+            href="/resume.pdf"
+            download
+            className="tracking-widest leading-loose underline font-bold"
+          >
+            Resume
+          </a>
+          .
         </p>
 
         <Link className="flex items-center gap-1 tracking-widest leading-loose mt-7">
