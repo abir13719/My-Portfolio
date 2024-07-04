@@ -7,18 +7,21 @@ const Navbar = () => {
 
   const navlinks = [
     { title: "Home", to: "/" },
-    { title: "About", to: "/" },
+    { title: "About", to: "/about" },
     { title: "Projects", to: "/" },
   ];
 
   return (
-    <nav className="shadow-md w-full fixed top-0 left-0 z-20">
-      <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
+    <nav className="w-full fixed top-0 left-0 z-20 bg-white">
+      <div className="container mx-auto md:flex items-center justify-between py-4 md:px-10 px-7">
         <div>
           <Link to="/">
-            <h1 className="font-bold text-2xl cursor-pointer flex items-center text-gray-800">
-              Logo
-            </h1>
+            <figure className="w-12">
+              <img
+                src="https://avatars.githubusercontent.com/u/127019207?v=4"
+                alt="Profile Image"
+              />
+            </figure>
           </Link>
         </div>
         <div

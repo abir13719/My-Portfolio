@@ -1,12 +1,15 @@
+import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="font-poppins">
+    <div className="mt-20 font-poppins min-h-[calc(100vh-80px)] flex flex-col">
       <Navbar></Navbar>
-      <div className="bg-blue-600 h-screen">
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <div className="flex flex-1">
+        <Outlet></Outlet>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
