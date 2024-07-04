@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Skills = () => {
   return (
     <div className="px-10 py-5 container mx-auto flex flex-col items-center justify-center">
-      <article className="max-w-6xl">
+      <article className="max-w-6xl mx-auto">
         <h1 className="uppercase tracking-widest font-bold text-4xl mb-7">My Skills</h1>
         {/* HTML */}
         <div>

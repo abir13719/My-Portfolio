@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const AboutMe = () => {
   return (
     <section className="px-10 py-5 container mx-auto flex flex-col items-center justify-center">
-      <article className="max-w-6xl">
+      <article className="max-w-6xl mx-auto">
         <h1 className="uppercase tracking-widest font-bold text-4xl mb-7">I&apos;m Aminul Islam</h1>
         <p className="tracking-widest leading-loose">
           A junior frontend web developer. I spend my days (often nights) learning web technology
